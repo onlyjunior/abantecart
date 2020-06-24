@@ -159,30 +159,17 @@ set_error_handler('handleError');
 function getOptionList()
 {
     return array(
-        // '--db_host'          => 'localhost',
-        // '--db_user'          => 'root',
-        // '--db_password'      => 'pass',
-        // '--db_name'          => 'abantecart',
-        // '--db_driver'        => 'amysqli',
-        // '--db_prefix'        => 'ac_',
-        // '--admin_path'       => 'your_admin',
-        // '--username'         => 'admin',
-        // '--password'         => 'admin',
-        // '--email'            => 'your_email@example.com',
-        // '--http_server'      => 'http://localhost/abantecart',
-        // '--with-sample-data' => '',
-
-        '--db_host'          => getenv('MYSQL_HOST'),
-        '--db_user'          => getenv('MYSQL_USER'),
-        '--db_password'      => getenv('MYSQL_PASSWORD'),
-        '--db_name'          => getenv('$MYSQL_DATABASE'),
-        '--db_driver'        => 'mysqli',
-        '--db_prefix'        => 'abc',
-        '--admin_path'       => 'admin',
+        '--db_host'          => 'localhost',
+        '--db_user'          => 'root',
+        '--db_password'      => 'pass',
+        '--db_name'          => 'abantecart',
+        '--db_driver'        => 'amysqli',
+        '--db_prefix'        => 'ac_',
+        '--admin_path'       => 'your_admin',
         '--username'         => 'admin',
         '--password'         => 'admin',
-        '--email'            => 'mail@mail.com',
-        '--http_server'      => 'http://localhost',
+        '--email'            => 'your_email@example.com',
+        '--http_server'      => 'http://localhost/abantecart',
         '--with-sample-data' => ''
     );
 }
